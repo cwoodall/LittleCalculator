@@ -16,6 +16,7 @@
 		5569C308138DACF3003FEE5A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5569C306138DACF3003FEE5A /* MainWindow.xib */; };
 		5569C311138DAD7D003FEE5A /* LittleCalculatorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5569C30F138DAD7D003FEE5A /* LittleCalculatorController.m */; };
 		5569C312138DAD7D003FEE5A /* LittleCalculatorController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5569C310138DAD7D003FEE5A /* LittleCalculatorController.xib */; };
+		5569C315138DB2A8003FEE5A /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5569C314138DB2A8003FEE5A /* Calculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,8 @@
 		5569C30E138DAD7D003FEE5A /* LittleCalculatorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LittleCalculatorController.h; sourceTree = "<group>"; };
 		5569C30F138DAD7D003FEE5A /* LittleCalculatorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LittleCalculatorController.m; sourceTree = "<group>"; };
 		5569C310138DAD7D003FEE5A /* LittleCalculatorController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LittleCalculatorController.xib; sourceTree = "<group>"; };
+		5569C313138DB2A8003FEE5A /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		5569C314138DB2A8003FEE5A /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 				5569C304138DACF3003FEE5A /* LittleCalcAppDelegate.m */,
 				5569C30E138DAD7D003FEE5A /* LittleCalculatorController.h */,
 				5569C30F138DAD7D003FEE5A /* LittleCalculatorController.m */,
+				5569C313138DB2A8003FEE5A /* Calculator.h */,
+				5569C314138DB2A8003FEE5A /* Calculator.m */,
 				5569C310138DAD7D003FEE5A /* LittleCalculatorController.xib */,
 				5569C306138DACF3003FEE5A /* MainWindow.xib */,
 				5569C2FB138DACF3003FEE5A /* Supporting Files */,
@@ -167,6 +172,7 @@
 				5569C302138DACF3003FEE5A /* main.m in Sources */,
 				5569C305138DACF3003FEE5A /* LittleCalcAppDelegate.m in Sources */,
 				5569C311138DAD7D003FEE5A /* LittleCalculatorController.m in Sources */,
+				5569C315138DB2A8003FEE5A /* Calculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

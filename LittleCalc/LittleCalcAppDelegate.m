@@ -68,6 +68,7 @@
 
 - (void)dealloc
 {
+    [_littleCalcController release];
     [_window release];
     [super dealloc];
 }
