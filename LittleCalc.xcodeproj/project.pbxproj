@@ -14,6 +14,8 @@
 		5569C302138DACF3003FEE5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5569C301138DACF3003FEE5A /* main.m */; };
 		5569C305138DACF3003FEE5A /* LittleCalcAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5569C304138DACF3003FEE5A /* LittleCalcAppDelegate.m */; };
 		5569C308138DACF3003FEE5A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5569C306138DACF3003FEE5A /* MainWindow.xib */; };
+		5569C311138DAD7D003FEE5A /* LittleCalculatorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5569C30F138DAD7D003FEE5A /* LittleCalculatorController.m */; };
+		5569C312138DAD7D003FEE5A /* LittleCalculatorController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5569C310138DAD7D003FEE5A /* LittleCalculatorController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +23,16 @@
 		5569C2F4138DACF3003FEE5A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5569C2F6138DACF3003FEE5A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5569C2F8138DACF3003FEE5A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5569C2FC138DACF3003FEE5A /* LittleCalc-Info.plist */ = {isa = PBXFileReference; path = "LittleCalc-Info.plist"; sourceTree = "<group>"; };
+		5569C2FC138DACF3003FEE5A /* LittleCalc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LittleCalc-Info.plist"; sourceTree = "<group>"; };
 		5569C2FE138DACF3003FEE5A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5569C300138DACF3003FEE5A /* LittleCalc-Prefix.pch */ = {isa = PBXFileReference; path = "LittleCalc-Prefix.pch"; sourceTree = "<group>"; };
+		5569C300138DACF3003FEE5A /* LittleCalc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LittleCalc-Prefix.pch"; sourceTree = "<group>"; };
 		5569C301138DACF3003FEE5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5569C303138DACF3003FEE5A /* LittleCalcAppDelegate.h */ = {isa = PBXFileReference; path = LittleCalcAppDelegate.h; sourceTree = "<group>"; };
+		5569C303138DACF3003FEE5A /* LittleCalcAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LittleCalcAppDelegate.h; sourceTree = "<group>"; };
 		5569C304138DACF3003FEE5A /* LittleCalcAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LittleCalcAppDelegate.m; sourceTree = "<group>"; };
 		5569C307138DACF3003FEE5A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		5569C30E138DAD7D003FEE5A /* LittleCalculatorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LittleCalculatorController.h; sourceTree = "<group>"; };
+		5569C30F138DAD7D003FEE5A /* LittleCalculatorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LittleCalculatorController.m; sourceTree = "<group>"; };
+		5569C310138DAD7D003FEE5A /* LittleCalculatorController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LittleCalculatorController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +81,9 @@
 			children = (
 				5569C303138DACF3003FEE5A /* LittleCalcAppDelegate.h */,
 				5569C304138DACF3003FEE5A /* LittleCalcAppDelegate.m */,
+				5569C30E138DAD7D003FEE5A /* LittleCalculatorController.h */,
+				5569C30F138DAD7D003FEE5A /* LittleCalculatorController.m */,
+				5569C310138DAD7D003FEE5A /* LittleCalculatorController.xib */,
 				5569C306138DACF3003FEE5A /* MainWindow.xib */,
 				5569C2FB138DACF3003FEE5A /* Supporting Files */,
 			);
@@ -145,6 +153,7 @@
 			files = (
 				5569C2FF138DACF3003FEE5A /* InfoPlist.strings in Resources */,
 				5569C308138DACF3003FEE5A /* MainWindow.xib in Resources */,
+				5569C312138DAD7D003FEE5A /* LittleCalculatorController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +166,7 @@
 			files = (
 				5569C302138DACF3003FEE5A /* main.m in Sources */,
 				5569C305138DACF3003FEE5A /* LittleCalcAppDelegate.m in Sources */,
+				5569C311138DAD7D003FEE5A /* LittleCalculatorController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

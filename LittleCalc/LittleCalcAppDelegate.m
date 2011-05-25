@@ -10,11 +10,18 @@
 
 @implementation LittleCalcAppDelegate
 
-
+@synthesize littleCalcController=_littleCalcController;
 @synthesize window=_window;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    LittleCalculatorController *aCalcController = [[LittleCalculatorController alloc]
+                        initWithNibName:@"LittleCalculatorController" bundle:[NSBundle mainBundle]];
+    
+    [self setLittleCalcController:aCalcController];
+
+    [[self window] setRootViewController:[self littleCalcController]];
+    
     // Override point for customization after application launch.
     [self.window makeKeyAndVisible];
     return YES;

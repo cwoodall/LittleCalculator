@@ -7,11 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LittleCalculatorController.h"
+
+@class LittleCalculatorController;
 
 @interface LittleCalcAppDelegate : NSObject <UIApplicationDelegate> {
 
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) LittleCalculatorController *littleCalcController;
 
 @end
