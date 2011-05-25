@@ -19,9 +19,9 @@
                         initWithNibName:@"LittleCalculatorController" bundle:[NSBundle mainBundle]];
     
     [self setLittleCalcController:aCalcController];
-
-    [[self window] setRootViewController:[self littleCalcController]];
+    [aCalcController release];
     
+    self.window.rootViewController = self.littleCalcController;
     // Override point for customization after application launch.
     [self.window makeKeyAndVisible];
     return YES;
