@@ -1,0 +1,270 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5569C2F5138DACF3003FEE5A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5569C2F4138DACF3003FEE5A /* UIKit.framework */; };
+		5569C2F7138DACF3003FEE5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5569C2F6138DACF3003FEE5A /* Foundation.framework */; };
+		5569C2F9138DACF3003FEE5A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5569C2F8138DACF3003FEE5A /* CoreGraphics.framework */; };
+		5569C2FF138DACF3003FEE5A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5569C2FD138DACF3003FEE5A /* InfoPlist.strings */; };
+		5569C302138DACF3003FEE5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5569C301138DACF3003FEE5A /* main.m */; };
+		5569C305138DACF3003FEE5A /* LittleCalcAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5569C304138DACF3003FEE5A /* LittleCalcAppDelegate.m */; };
+		5569C308138DACF3003FEE5A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5569C306138DACF3003FEE5A /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5569C2F0138DACF3003FEE5A /* LittleCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5569C2F4138DACF3003FEE5A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5569C2F6138DACF3003FEE5A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5569C2F8138DACF3003FEE5A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5569C2FC138DACF3003FEE5A /* LittleCalc-Info.plist */ = {isa = PBXFileReference; path = "LittleCalc-Info.plist"; sourceTree = "<group>"; };
+		5569C2FE138DACF3003FEE5A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5569C300138DACF3003FEE5A /* LittleCalc-Prefix.pch */ = {isa = PBXFileReference; path = "LittleCalc-Prefix.pch"; sourceTree = "<group>"; };
+		5569C301138DACF3003FEE5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5569C303138DACF3003FEE5A /* LittleCalcAppDelegate.h */ = {isa = PBXFileReference; path = LittleCalcAppDelegate.h; sourceTree = "<group>"; };
+		5569C304138DACF3003FEE5A /* LittleCalcAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LittleCalcAppDelegate.m; sourceTree = "<group>"; };
+		5569C307138DACF3003FEE5A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5569C2ED138DACF3003FEE5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5569C2F5138DACF3003FEE5A /* UIKit.framework in Frameworks */,
+				5569C2F7138DACF3003FEE5A /* Foundation.framework in Frameworks */,
+				5569C2F9138DACF3003FEE5A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5569C2E5138DACF3003FEE5A = {
+			isa = PBXGroup;
+			children = (
+				5569C2FA138DACF3003FEE5A /* LittleCalc */,
+				5569C2F3138DACF3003FEE5A /* Frameworks */,
+				5569C2F1138DACF3003FEE5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5569C2F1138DACF3003FEE5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5569C2F0138DACF3003FEE5A /* LittleCalc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5569C2F3138DACF3003FEE5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5569C2F4138DACF3003FEE5A /* UIKit.framework */,
+				5569C2F6138DACF3003FEE5A /* Foundation.framework */,
+				5569C2F8138DACF3003FEE5A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5569C2FA138DACF3003FEE5A /* LittleCalc */ = {
+			isa = PBXGroup;
+			children = (
+				5569C303138DACF3003FEE5A /* LittleCalcAppDelegate.h */,
+				5569C304138DACF3003FEE5A /* LittleCalcAppDelegate.m */,
+				5569C306138DACF3003FEE5A /* MainWindow.xib */,
+				5569C2FB138DACF3003FEE5A /* Supporting Files */,
+			);
+			path = LittleCalc;
+			sourceTree = "<group>";
+		};
+		5569C2FB138DACF3003FEE5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5569C2FC138DACF3003FEE5A /* LittleCalc-Info.plist */,
+				5569C2FD138DACF3003FEE5A /* InfoPlist.strings */,
+				5569C300138DACF3003FEE5A /* LittleCalc-Prefix.pch */,
+				5569C301138DACF3003FEE5A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5569C2EF138DACF3003FEE5A /* LittleCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5569C30B138DACF3003FEE5A /* Build configuration list for PBXNativeTarget "LittleCalc" */;
+			buildPhases = (
+				5569C2EC138DACF3003FEE5A /* Sources */,
+				5569C2ED138DACF3003FEE5A /* Frameworks */,
+				5569C2EE138DACF3003FEE5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LittleCalc;
+			productName = LittleCalc;
+			productReference = 5569C2F0138DACF3003FEE5A /* LittleCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5569C2E7138DACF3003FEE5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Boston University";
+			};
+			buildConfigurationList = 5569C2EA138DACF3003FEE5A /* Build configuration list for PBXProject "LittleCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5569C2E5138DACF3003FEE5A;
+			productRefGroup = 5569C2F1138DACF3003FEE5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5569C2EF138DACF3003FEE5A /* LittleCalc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5569C2EE138DACF3003FEE5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5569C2FF138DACF3003FEE5A /* InfoPlist.strings in Resources */,
+				5569C308138DACF3003FEE5A /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5569C2EC138DACF3003FEE5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5569C302138DACF3003FEE5A /* main.m in Sources */,
+				5569C305138DACF3003FEE5A /* LittleCalcAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5569C2FD138DACF3003FEE5A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5569C2FE138DACF3003FEE5A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5569C306138DACF3003FEE5A /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5569C307138DACF3003FEE5A /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5569C309138DACF3003FEE5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		5569C30A138DACF3003FEE5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		5569C30C138DACF3003FEE5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LittleCalc/LittleCalc-Prefix.pch";
+				INFOPLIST_FILE = "LittleCalc/LittleCalc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5569C30D138DACF3003FEE5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LittleCalc/LittleCalc-Prefix.pch";
+				INFOPLIST_FILE = "LittleCalc/LittleCalc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5569C2EA138DACF3003FEE5A /* Build configuration list for PBXProject "LittleCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5569C309138DACF3003FEE5A /* Debug */,
+				5569C30A138DACF3003FEE5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5569C30B138DACF3003FEE5A /* Build configuration list for PBXNativeTarget "LittleCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5569C30C138DACF3003FEE5A /* Debug */,
+				5569C30D138DACF3003FEE5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5569C2E7138DACF3003FEE5A /* Project object */;
+}
