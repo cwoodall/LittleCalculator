@@ -29,6 +29,7 @@
     UILabel *resultsLabel;
     
     Calculator *littleCalc;
+    NSString *operation;
 }
 
 @property (nonatomic, retain) IBOutlet UIButton *button1;
@@ -47,7 +48,6 @@
 @property (nonatomic, retain) IBOutlet UIButton *buttonDiv;
 @property (nonatomic, retain) IBOutlet UIButton *buttonEquals;
 @property (nonatomic, retain) IBOutlet UILabel *resultsLabel;
-@property (nonatomic, retain) Calculator *littleCalc;
 
 - (IBAction)buttonClicked:(id)sender;
 
