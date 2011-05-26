@@ -67,4 +67,43 @@
     accumulator = memory/accumulator;
 }
 
+// Perform operation based on input string (operation)
+- operationFromString:(NSString *) operation
+{
+    // Performs action between accumulator and memory
+    
+    // Check for the existence of memory 
+    // NOTE: Possibly replace with a try
+    if (memory) {
+        if ([operation isEqualToString:@"+"]) {
+            [self addFromMemory];
+        } else if ([operation isEqualToString:@"-"]) {
+            [self subtractFromMemory];
+        } else if ([operation isEqualToString:@"*"]) {
+            [self multiplyFromMemory];
+        } else if ([operation isEqualToString:@"/"]) {
+            [self divideFromMemory];
+        } else if ([operation isEqualToString:@"="]) {
+            [self clearAll];
+        }
+    }
+    return self;
+}
+
+- operationFromString:(NSString *)operation withValue:(double)val
+{
+    if ([operation isEqualToString:@"+"]) {
+        [self add:val];
+    } else if ([operation isEqualToString:@"-"]) {
+        [self subtract:val];
+    } else if ([operation isEqualToString:@"*"]) {
+        [self multiply:val];
+    } else if ([operation isEqualToString:@"/"]) {
+        [self divide:val];
+    } else if ([operation isEqualToString:@"="]) {
+        [self clearAll];
+    }
+    return self;
+}
+
 @end

@@ -35,4 +35,8 @@
 - (void)multiplyFromMemory;
 - (void)divideFromMemory;
 
+// Perform operation based on input string (operation)
+- operationFromString:(NSString *) operation; // Performs action between accumulator and memory
+- operationFromString:(NSString *)operation withValue:(double)val;
+
 @end

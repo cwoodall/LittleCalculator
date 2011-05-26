@@ -46,50 +46,32 @@
             [littleCalc clear];
             operation = @"+";
             [resultsLabel setText:[NSString stringWithFormat:@"%.2f", [littleCalc accumulator]]];
-            NSLog(@"%f", [littleCalc memory]);
         } else if ([action isEqualToString:@"-"]) {
             [littleCalc toMemory];
             [littleCalc clear];
             operation = @"-";
             [resultsLabel setText:[NSString stringWithFormat:@"%.2f", [littleCalc accumulator]]];
-            NSLog(@"%f", [littleCalc memory]);
-
         } else if ([action isEqualToString:@"*"]) {
             [littleCalc toMemory];
             [littleCalc clear];
             operation = @"*";
-            [resultsLabel setText:[NSString stringWithFormat:@"%.2f", [littleCalc accumulator]]];
-            NSLog(@"%f", [littleCalc memory]);
-            
+            [resultsLabel setText:[NSString stringWithFormat:@"%.2f", [littleCalc accumulator]]];            
         } else if ([action isEqualToString:@"/"]) {
             [littleCalc toMemory];
             [littleCalc clear];
             operation = @"/";
             [resultsLabel setText:[NSString stringWithFormat:@"%.2f", [littleCalc accumulator]]];
-            NSLog(@"%f", [littleCalc memory]);
         } else if ([action isEqualToString:@"="]) {
-            if ([operation isEqualToString:@"+"]) {
-                [littleCalc addFromMemory];
-                [resultsLabel setText:[NSString stringWithFormat:@"%.2f", [littleCalc accumulator]]];
-                [littleCalc clearAll];
-                operation = @"";
-            } else if ([operation isEqualToString:@"-"]) {
-                [littleCalc subtractFromMemory];
-                [resultsLabel setText:[NSString stringWithFormat:@"%.2f", [littleCalc accumulator]]];
-                [littleCalc clearAll];
-                operation = @"";
-            } else if ([operation isEqualToString:@"*"]) {
-                [littleCalc multiplyFromMemory];
-                [resultsLabel setText:[NSString stringWithFormat:@"%.2f", [littleCalc accumulator]]];
-                [littleCalc clearAll];
-                operation = @"";
-            } else if ([operation isEqualToString:@"/"]) {
-                [littleCalc divideFromMemory];
+            if ([operation isEqualToString:@"+"] || [operation isEqualToString:@"-"] || 
+                [operation isEqualToString:@"*"] || [operation isEqualToString:@"/"]) 
+            {
+                [littleCalc operationFromString:operation];
                 [resultsLabel setText:[NSString stringWithFormat:@"%.2f", [littleCalc accumulator]]];
                 [littleCalc clearAll];
                 operation = @"";
             } else {
                 [littleCalc clearAll];
+                [resultsLabel setText:[NSString stringWithFormat:@"%.2f", [littleCalc accumulator]]];
                 operation = @"";
             }
         }
